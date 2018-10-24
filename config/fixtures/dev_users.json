@@ -1,0 +1,31 @@
+[
+{
+    "pk": 1,
+    "model": "auth.user",
+    "fields": {
+        "username": "",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": true,
+        "is_staff": true,
+        "last_login": "1989-09-21T07:13:21",
+        "groups": [],
+        "user_permissions": [],
+        "password": "",
+        "email": "",
+        "date_joined": "1989-09-21T06:13:21"
+    }
+},
+{
+    "pk": 1,
+    "model": "incidents.profile",
+    "fields": {
+        "incident_number": 50,
+        "hide_closed": false,
+        "user": [
+            ""
+        ]
+    }
+}
+]
